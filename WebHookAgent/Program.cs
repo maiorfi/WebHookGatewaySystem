@@ -165,6 +165,7 @@ namespace WebHookAgent
                         {
                             FileName = payload.Content,
                             Arguments = payload.Arguments,
+                            RedirectStandardOutput = true,
                             UseShellExecute = false
                         };
 
