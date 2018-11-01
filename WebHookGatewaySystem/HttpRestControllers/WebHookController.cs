@@ -33,7 +33,7 @@ namespace WebHookGateway.HttpRestControllers
         [Route("PushPayload")]
         public async Task<ActionResult<string>> PushPayload([FromBody] WebHookPayload payload)
         {
-            using (Logger.BeginScope($"WHG-{getCurrentMethod()}-{PronounceableGenerator.Generate()}"))
+            using (Logger.BeginScope($"WHG-{PronounceableGenerator.Generate()}"))
             {
                 if (payload == null)
                 {
@@ -47,15 +47,6 @@ namespace WebHookGateway.HttpRestControllers
 
                 return Ok();
             }
-        }
-
-        [MethodImpl(MethodImplOptions.NoInlining)]
-        string getCurrentMethod()
-        {
-            var st = new StackTrace();
-            var sf = st.GetFrame(1);
-
-            return sf.GetMethod().Name;
         }
     }
 }
