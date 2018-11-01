@@ -8,6 +8,8 @@ oppure con
 
 ```dotnet WebHookAgent.dll https://webhookgateway.azurewebsites.net/pusher -g <gruppo1> -g <gruppo2> -g <gruppo3>``` (riceve i push destinati ai gruppi indicati)
 
+[Link a ultima versione del client compilata](https://www.dropbox.com/s/gi59fmpamolell4/WebHookGatewayAgent.7z?dl=0)
+
 ### HTTP REST-API
 
 POST https://webhookgateway.azurewebsites.net/api/webhook/pushpayload
