@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebHookAgent": {
+      "commandName": "Project",
+      "commandLineArgs": "https://webhookgateway.azurewebsites.net/pusher -g test"
+    }
+  }
+}

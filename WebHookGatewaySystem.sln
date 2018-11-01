@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookGatewaySystem", "WebHookGatewaySystem\WebHookGatewaySystem.csproj", "{98224436-F326-4308-892E-D0D17E9AF837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHookGateway", "WebHookGatewaySystem\WebHookGateway.csproj", "{98224436-F326-4308-892E-D0D17E9AF837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookAgent", "WebHookAgent\WebHookAgent.csproj", "{AF697BAB-ABF7-42AF-BBC2-C1CF6E8AD1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookGatewaySystemContracts", "WebHookGatewaySystemContracts\WebHookGatewaySystemContracts.csproj", "{FB762FFB-F084-4A38-98EA-41DE516F7C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{98224436-F326-4308-892E-D0D17E9AF837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98224436-F326-4308-892E-D0D17E9AF837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98224436-F326-4308-892E-D0D17E9AF837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF697BAB-ABF7-42AF-BBC2-C1CF6E8AD1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF697BAB-ABF7-42AF-BBC2-C1CF6E8AD1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF697BAB-ABF7-42AF-BBC2-C1CF6E8AD1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF697BAB-ABF7-42AF-BBC2-C1CF6E8AD1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB762FFB-F084-4A38-98EA-41DE516F7C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB762FFB-F084-4A38-98EA-41DE516F7C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB762FFB-F084-4A38-98EA-41DE516F7C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB762FFB-F084-4A38-98EA-41DE516F7C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
