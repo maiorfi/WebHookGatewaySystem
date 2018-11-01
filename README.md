@@ -1,4 +1,4 @@
-(Richiede .NET Core 2.1)
+*(Richiede .NET Core 2.1)*
 
 ### Avviare il client (su windows, mac o linux) con:
 
