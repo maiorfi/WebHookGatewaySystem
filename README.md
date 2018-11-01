@@ -35,7 +35,7 @@ Esempio #1 (fa aprire il browser sul sito di Repubblica a tutti i client collega
 }
 ```
 
-Esempio #2 (lncia Notepad sui client, Windows in questo caso, collegati dei gruppi "Gruppo_1" e "Gruppo_2"):
+Esempio #2 (lancia Notepad sui client, Windows in questo caso, collegati dei gruppi "Gruppo_1" e "Gruppo_2"):
 
 ```json
 {
