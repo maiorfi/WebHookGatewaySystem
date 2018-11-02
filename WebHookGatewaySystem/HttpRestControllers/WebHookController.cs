@@ -45,7 +45,7 @@ namespace WebHookGateway.HttpRestControllers
 
                 await GatewayService.PushPayload(payload);
 
-                return Ok();
+                return Ok(new { });
             }
         }
     }
