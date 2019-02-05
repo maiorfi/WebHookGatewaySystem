@@ -29,7 +29,7 @@ namespace WebHookGateway.SignalrHubs
             await Groups.AddToGroupAsync(Context.ConnectionId, groupName);
         }
 
-        public async Task UnsubscribeFromGRoup(string groupName)
+        public async Task UnsubscribeFromGroup(string groupName)
         {
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, groupName);
         }

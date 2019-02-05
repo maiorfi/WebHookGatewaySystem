@@ -16,9 +16,6 @@ namespace WebHookAgent
         [Required]
         public string HubEndpoint { get; }
 
-        [Option("-a|--all", Description = "Subscribe to all pushed payloads")]
-        public bool ReceiveAllPayloads { get; }
-
         [Option("-g|--group", CommandOptionType.MultipleValue, Description = "Subscribe to group (multiple values accepted)")]
         public string[] Groups { get; }
 
@@ -29,6 +26,8 @@ namespace WebHookAgent
 
         public async Task OnExecute()
         {
+            Console.Title = $"Hub: {HubEndpoint} - Groups: {string.Join(", ", this.Groups)}";
+
             _hubConnectionBuilder = new HubConnectionBuilder();
 
             _hubConnection = _hubConnectionBuilder.WithUrl(HubEndpoint).Build();
@@ -76,6 +75,16 @@ namespace WebHookAgent
             foreach (var g in Groups)
             {
                 await _hubConnection.InvokeAsync("SubscribeToGroup", g);
+            }
+        }
+
+        private async Task unsubscribeFromGroups()
+        {
+            if (Groups == null) return;
+
+            foreach (var g in Groups)
+            {
+                await _hubConnection.InvokeAsync("UnsubscribeFromGroup", g);
             }
         }
 

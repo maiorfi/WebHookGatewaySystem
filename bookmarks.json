@@ -1,0 +1,112 @@
+[
+    {
+        "bookmark": "1 motore di ricerca",
+        "payload": {
+            "Content": "http://www.google.com",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "1 altro motore di ricerca",
+        "payload": {
+            "Content": "http://www.duckduckgo.com",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "1 video musicale",
+        "payload": {
+            "Content": "https://www.youtube.com/watch?v=aJOTlE1K90k",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "orologio",
+        "payload": {
+            "Content": "D:\\Progetti\\Lab\\Alexa\\3D_Video.mp4",
+            "ContentType": "ShellExecute",
+            "Groups": "vetrina,web"
+        }
+    },
+    {
+        "bookmark": "1 film western",
+        "payload": {
+            "Content": "https://www.youtube.com/watch?v=d09Zj9eBJqY",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "il mio film preferito",
+        "payload": {
+            "Content": "https://www.youtube.com/watch?v=crR6pBGMZ90",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "il portale delle notizie",
+        "payload": {
+            "Content": "http://www.ansa.it/?refresh_ce",
+            "ContentType": "ShellExecute",
+            "Groups": "web,news"
+        }
+    },
+    {
+        "bookmark": "1 pagina facebook",
+        "payload": {
+            "Content": "https://www.facebook.com/Passioneperigatti/",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "la manutenzione",
+        "payload": {
+            "Content": "http://umbrahealthmonitoring.mqtt.it:3000/d/VScX6Xbik/overview?orgId=1&from=1540650000000&to=1540650100000",
+            "ContentType": "ShellExecute",
+            "Groups": "web,vetrina"
+        }
+    },
+    {
+        "bookmark": "la produzione",
+        "payload": {
+            "Content": "https://iae-device-monitor.firebaseapp.com/?ALPIPRESS,mqtt.innovactive.net,443,ws,ssl,usr-test,usr-test#/home",
+            "ContentType": "ShellExecute",
+            "Groups": "web,vetrina"
+        }
+    },
+    {
+        "bookmark": "il monitor dei ponti",
+        "payload": {
+            "Content": "https://sentetic-smartbridge.firebaseapp.com/",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "i dati della regione",
+        "payload": {
+            "Content": "http://51.144.86.69:5601/app/kibana#/dashboard/AWbVOoWeY5j_eefKfWjq?embed=true&_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now-2d,mode:relative,to:now))&_a=(description:'',filters:!(),options:(darkTheme:!f),panels:!((col:1,id:AWbVJfAKY5j_eefKfVcU,panelIndex:1,row:1,size_x:12,size_y:7,type:visualization),(col:1,id:AWbVKhpuY5j_eefKfVsF,panelIndex:2,row:8,size_x:6,size_y:3,type:visualization),(col:7,id:AWbVQKLgY5j_eefKfW6a,panelIndex:3,row:8,size_x:6,size_y:3,type:visualization)),query:(match_all:()),timeRestore:!f,title:umbria-hashtag,uiState:(),viewMode:view)",
+            "ContentType": "ShellExecute",
+            "Groups": "web"
+        }
+    },
+    {
+        "bookmark": "il blocco note",
+        "payload": {
+            "Content": "notepad.exe",
+            "ContentType": "ShellExecute"
+        }
+    },
+    {
+        "bookmark": "la calcolatrice",
+        "payload": {
+            "Content": "calc.exe",
+            "ContentType": "ShellExecute"
+        }
+    }
+]

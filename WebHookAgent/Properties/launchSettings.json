@@ -2,7 +2,7 @@
   "profiles": {
     "WebHookAgent": {
       "commandName": "Project",
-      "commandLineArgs": "https://webhookgateway.azurewebsites.net/pusher -g test"
+      "commandLineArgs": "https://webhookgateway.azurewebsites.net/pusher -g group1 -g group2"
     }
   }
 }
