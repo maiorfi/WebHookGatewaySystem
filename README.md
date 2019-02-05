@@ -1,4 +1,4 @@
-*(Richiede .NET Core 2.1)*
+*(Target: .NET Core 2.2)*
 
 ### Avviare il client (su windows, mac o linux) con:
 
